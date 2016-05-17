@@ -2,15 +2,15 @@
  * @author RubaXa <trash@rubaxa.org>
  * @licence MIT
  */
-(function (factory) {
+module.exports = (function (factory) {
 	'use strict';
 
 	if (typeof define === 'function' && define.amd) {
-		define(['angular', './Sortable'], factory);
+		define(['angular', '../sortablejs/Sortable'], factory);
 	}
 	else if (typeof require === 'function' && typeof exports === 'object' && typeof module === 'object') {
 		require('angular');
-		factory(angular, require('./Sortable'));
+		factory(angular, require('../sortablejs/Sortable'));
 		module.exports = 'ng-sortable';
 	}
 	else if (window.angular && window.Sortable) {
