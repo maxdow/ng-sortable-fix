@@ -1,0 +1,11 @@
+{
+  "name": "ng-sortable-fix",
+  "version": "1.0.0",
+  "description": "A fix to use ng-sortable from sortablejs with angular > 1.5",
+  "main": "ng-sortable.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Maxime Warnier",
+  "license": "MIT"
+}
